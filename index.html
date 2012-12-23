@@ -85,6 +85,67 @@ var jigoshop_params = {"ajax_url":"http:\/\/iryska.com.ua\/wordpress\/wp-admin\/
 <style type="text/css" id="custom-background-css">
 body.custom-background { background-image: url('http://www.iryska.com.ua/wp-content/uploads/2012/12/Food_sweets_224227.jpg'); background-repeat: repeat-y; background-position: top left; background-attachment: scroll; }
 </style>
+<style type="text/css">
+    ul.products a {
+        font: 12px/14px Arial,Helvetica,sans-serif;
+    }
+    .products a:hover {
+        text-decoration: underline;
+    }
+    li.product {
+        text-align: center;
+        margin-right: 40px;
+    }
+    li.product a strong{
+        min-height: 40px;
+    }
+    li.product a span{
+        display: block;
+        margin-top: 5px;
+    }
+    li.product .button{
+        display: block;
+        margin: 0px 0px 0px 5px;
+        padding: 4px;
+    }
+    form.jigoshop_login_widget {
+        margin-left: 1.3em;
+    }
+    form.jigoshop_login_widget label{
+        width: 80px;
+        display: block;
+        float: left;
+    }
+    form.jigoshop_login_widget p{
+        margin-bottom: 10px;
+    }
+    form.jigoshop_login_widget input{
+        padding-left: 5px;
+        width: 130px;
+    }
+    
+    form.jigoshop_login_widget input[type="password"]{
+        background: none repeat scroll 0 0 #FFFFFF;
+        border: 1px solid #DDDDDD;
+        border-radius: 5px 5px 5px 5px;
+        box-shadow: 1px 1px 1px #EEEEEE inset;
+    }
+    
+    form.jigoshop_login_widget .input-submit{
+        width: 50px;
+    }
+    
+    form.jigoshop_login_widget p:last-child a{
+        font: 12px/14px Arial,Helvetica,sans-serif;
+    }
+    form.jigoshop_login_widget p:last-child{
+        margin-top: -10px;
+    }
+    
+    .empty {
+        margin-left: 10px;
+    }
+</style>
 <!-- Google Analytics Tracking by Google Analyticator 6.4.1: http://www.videousermanuals.com/google-analyticator/ -->
 <script type="text/javascript">
 	var analyticsFileTypes = [''];
@@ -183,7 +244,7 @@ body.custom-background { background-image: url('http://www.iryska.com.ua/wp-cont
 			<span class="price">34,00 грн</span>
 		</a>
 
-		<a href="http://iryska.com.ua/?add-to-cart=54&amp;_n=1cc050dd47" class="button" rel="nofollow">Додати до кошика</a>
+		<a href="http://iryska.com.ua/?add-to-cart=54&amp;_n=1cc050dd47" class="button" rel="nofollow">В кошик</a>
 	</li>	<li class="product ">
 
 		
@@ -195,8 +256,22 @@ body.custom-background { background-image: url('http://www.iryska.com.ua/wp-cont
 			<span class="price">30,00 грн</span>
 		</a>
 
-		<a href="http://iryska.com.ua/?add-to-cart=107&amp;_n=1cc050dd47" class="button" rel="nofollow">Додати до кошика</a>
-	</li>	<li class="product last">
+		<a href="http://iryska.com.ua/?add-to-cart=107&amp;_n=1cc050dd47" class="button" rel="nofollow">В кошик</a>
+	</li>
+    <li class="product ">
+
+		
+		<a href="http://iryska.com.ua/product/%d0%b3%d0%b5%d0%bb%d0%b5%d0%b2%d1%96-%d0%ba%d0%be%d0%bb%d1%8c%d0%be%d1%80%d0%be%d0%b2%d1%96-%d0%be%d0%bb%d1%96%d0%b2%d1%86%d1%96/">
+
+			<img width="150" height="150" src="http://iryska.com.ua/wp-content/uploads/2012/12/DSC_9449-e1354908419703-150x150.jpg" class="attachment-shop_small wp-post-image" alt="Гелеві кольорові олівці" title="Гелеві кольорові олівці" />
+			<strong>Гелеві кольорові олівці</strong>
+
+			<span class="price">30,00 грн</span>
+		</a>
+
+		<a href="http://iryska.com.ua/?add-to-cart=107&amp;_n=1cc050dd47" class="button" rel="nofollow">В кошик</a>
+	</li>
+    <li class="product last">
 
 		
 		<a href="http://iryska.com.ua/product/%d0%b4%d0%b5%d0%ba%d0%be%d1%80-%d0%b7-%d0%bc%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%b8-%d0%bb%d0%b5%d0%b2%d0%b5%d0%bd%d1%8f%d1%82%d0%ba%d0%be/">
@@ -207,7 +282,7 @@ body.custom-background { background-image: url('http://www.iryska.com.ua/wp-cont
 			<span class="price">3,50 грн</span>
 		</a>
 
-		<a href="http://iryska.com.ua/?add-to-cart=170&amp;_n=1cc050dd47" class="button" rel="nofollow">Додати до кошика</a>
+		<a href="http://iryska.com.ua/?add-to-cart=170&amp;_n=1cc050dd47" class="button" rel="nofollow">В кошик</a>
 	</li>	<li class="product first">
 
 		
@@ -219,7 +294,7 @@ body.custom-background { background-image: url('http://www.iryska.com.ua/wp-cont
 			<span class="price">30,00 грн</span>
 		</a>
 
-		<a href="http://iryska.com.ua/?add-to-cart=197&amp;_n=1cc050dd47" class="button" rel="nofollow">Додати до кошика</a>
+		<a href="http://iryska.com.ua/?add-to-cart=197&amp;_n=1cc050dd47" class="button" rel="nofollow">В кошик</a>
 	</li>	<li class="product ">
 
 		
@@ -231,8 +306,22 @@ body.custom-background { background-image: url('http://www.iryska.com.ua/wp-cont
 			<span class="price">25,00 грн</span>
 		</a>
 
-		<a href="http://iryska.com.ua/?add-to-cart=229&amp;_n=1cc050dd47" class="button" rel="nofollow">Додати до кошика</a>
-	</li>	<li class="product last">
+		<a href="http://iryska.com.ua/?add-to-cart=229&amp;_n=1cc050dd47" class="button" rel="nofollow">В кошик</a>
+	</li>
+    <li class="product ">
+
+		
+		<a href="http://iryska.com.ua/product/%d0%bf%d0%bb%d1%83%d0%bd%d0%b6%d0%b5%d1%80-%d1%81%d0%b0%d0%ba%d1%83%d1%80%d0%b0/">
+
+			<img width="150" height="150" src="http://iryska.com.ua/wp-content/uploads/2012/12/IMG_01621-150x150.jpg" class="attachment-shop_small wp-post-image" alt="Плунжер «Сакура»" title="Плунжер «Сакура»" />
+			<strong>Плунжер «Сакура»</strong>
+
+			<span class="price">25,00 грн</span>
+		</a>
+
+		<a href="http://iryska.com.ua/?add-to-cart=229&amp;_n=1cc050dd47" class="button" rel="nofollow">В кошик</a>
+	</li>
+    <li class="product last">
 
 		
 		<a href="http://iryska.com.ua/product/%d0%ba%d1%83%d0%bb%d1%96%d0%bd%d0%b0%d1%80%d0%bd%d0%b5-%d0%ba%d0%be%d0%bb%d0%b5%d1%81%d0%be-%d0%b4%d0%bb%d1%8f-%d0%bd%d0%b0%d1%80%d1%96%d0%b7%d0%b0%d0%bd%d0%bd%d1%8f-%d0%bc%d0%b0%d1%81%d1%82%d0%b8/">
@@ -243,7 +332,7 @@ body.custom-background { background-image: url('http://www.iryska.com.ua/wp-cont
 			<span class="price">30,00 грн</span>
 		</a>
 
-		<a href="http://iryska.com.ua/?add-to-cart=234&amp;_n=1cc050dd47" class="button" rel="nofollow">Додати до кошика</a>
+		<a href="http://iryska.com.ua/?add-to-cart=234&amp;_n=1cc050dd47" class="button" rel="nofollow">В кошик</a>
 	</li>	<li class="product first">
 
 		
@@ -255,7 +344,7 @@ body.custom-background { background-image: url('http://www.iryska.com.ua/wp-cont
 			<span class="price">70,00 грн</span>
 		</a>
 
-		<a href="http://iryska.com.ua/?add-to-cart=244&amp;_n=1cc050dd47" class="button" rel="nofollow">Додати до кошика</a>
+		<a href="http://iryska.com.ua/?add-to-cart=244&amp;_n=1cc050dd47" class="button" rel="nofollow">В кошик</a>
 	</li>	<li class="product ">
 
 		
@@ -267,8 +356,22 @@ body.custom-background { background-image: url('http://www.iryska.com.ua/wp-cont
 			<span class="price">7,00 грн</span>
 		</a>
 
-		<a href="http://iryska.com.ua/?add-to-cart=313&amp;_n=1cc050dd47" class="button" rel="nofollow">Додати до кошика</a>
-	</li>	<li class="product last">
+		<a href="http://iryska.com.ua/?add-to-cart=313&amp;_n=1cc050dd47" class="button" rel="nofollow">В кошик</a>
+	</li>	
+    <li class="product ">
+
+		
+		<a href="http://iryska.com.ua/product/%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4%d0%bd%d0%b0-%d0%ba%d1%80%d0%b8%d1%85%d1%82%d0%b0100%d0%b3%d1%80%d0%b0%d0%bc/">
+
+			<img width="150" height="150" src="http://iryska.com.ua/wp-content/uploads/2012/12/IMG_0340-150x150.jpg" class="attachment-shop_small wp-post-image" alt="Шоколадна крихта, 100 грам" title="Шоколадна крихта, 100 грам" />
+			<strong>Шоколадна крихта, 100 грам</strong>
+
+			<span class="price">7,00 грн</span>
+		</a>
+
+		<a href="http://iryska.com.ua/?add-to-cart=313&amp;_n=1cc050dd47" class="button" rel="nofollow">В кошик</a>
+	</li>
+    <li class="product last">
 
 		
 		<a href="http://iryska.com.ua/product/%d1%84%d0%be%d1%80%d0%bc%d0%b8-%d0%b4%d0%bb%d1%8f-%d1%80%d0%be%d0%b1%d0%be%d1%82%d0%b8-%d0%b7-%d0%bc%d0%b0%d1%81%d1%82%d0%b8%d0%ba%d0%be%d1%8e-%d1%82%d0%b0-%d1%88%d0%be%d0%ba%d0%be%d0%bb%d0%b0%d0%b4-2/">
@@ -279,7 +382,7 @@ body.custom-background { background-image: url('http://www.iryska.com.ua/wp-cont
 			<span class="price">45,00 грн</span>
 		</a>
 
-		<a href="http://iryska.com.ua/?add-to-cart=542&amp;_n=1cc050dd47" class="button" rel="nofollow">Додати до кошика</a>
+		<a href="http://iryska.com.ua/?add-to-cart=542&amp;_n=1cc050dd47" class="button" rel="nofollow">В кошик</a>
 	</li></ul><div class="clear"></div>
 																	</div><!-- .entry-content -->
 				</div><!-- #post-## -->
@@ -342,9 +445,8 @@ onfocus="if (this.value == 'Search')
 			
 			<p>
 				<input type='submit' name='submit' value='Увійти' class='input-submit' />
-				<a class='forgot' href='http://iryska.com.ua/wordpress/wp-login.php?action=lostpassword&#038;redirect_to=http://iryska.com.ua/my-account/'>Забули?</a>
 			</p>
-			<p class="register">Новий користувач? <a rel="nofollow" href="http://iryska.com.ua/wordpress/wp-login.php?action=register">Зареєструватись</a></p></form></li><li id="jigoshop_cart-2" class="widget-container jigoshop_cart"><h3 class="widget-title">Кошик</h3><span class="empty">Жодного товару у кошику.</span></li>			</ul>
+			<p class="register"><a rel="nofollow" href="http://iryska.com.ua/wordpress/wp-login.php?action=register">Зареєструватись</a> | <a class='forgot' href='http://iryska.com.ua/wordpress/wp-login.php?action=lostpassword&#038;redirect_to=http://iryska.com.ua/my-account/'>Нагадати пароль?</a></p></form></li><li id="jigoshop_cart-2" class="widget-container jigoshop_cart"><h3 class="widget-title">Кошик</h3><span class="empty">Жодного товару у кошику.</span></li>			</ul>
 
 			<ul class="xoxo">
 							</ul>
